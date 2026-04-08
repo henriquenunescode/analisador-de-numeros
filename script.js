@@ -1,6 +1,7 @@
 const inputNumber = document.querySelector("#num")
 const buttonEnviar = document.querySelector("#btnEnviar")
 const buttonFinalizar = document.querySelector("#btnFinalizar")
+const buttonLimpar = document.querySelector("#btnLimpar")
 const selectNumAdicionados = document.querySelector("#numAdicionados")
 const divResultado = document.querySelector("#div3")
 let array = []
@@ -68,6 +69,25 @@ inputNumber.addEventListener("keydown", (event) => {
         buttonEnviar.click() // igual ao usuário clicar no botão com o mouse
     }
 
+})
+
+buttonLimpar.addEventListener("click", () => {
+    // Limpa array
+    array = []
+
+    // Limpa select
+    selectNumAdicionados.innerHTML = ""
+    selectNumAdicionados.setAttribute("size", 0)
+
+    // Remove os parágrafos do DOM
+    paragrafoQuantidade.remove()
+    paragrafoMaior.remove()
+    paragrafoMenor.remove()
+    paragrafoSoma.remove()
+    paragrafoMedia.remove()
+
+    inputNumber.value = ""
+    inputNumber.focus()
 })
 
 function adicionarNoSelect(numero) {

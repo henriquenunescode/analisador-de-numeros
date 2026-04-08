@@ -1,17 +1,17 @@
 body {
-    background-color: rgb(84, 84, 255);
+    background: radial-gradient(circle, #1e0505, #711717);
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(206, 206, 206);
     text-align: center;
     font-size: 50px;
-    text-shadow: 6px 6px 1px rgb(40, 40, 116);
+    text-shadow: 6px 6px 3px rgb(129, 29, 29);
 }
 
 #span1e100 {
     opacity: 40%;
-    color: #378ADD;
+    color: rgb(15, 15, 15);
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -26,7 +26,7 @@ section {
     margin: auto;
     margin-top: 10px;
     text-align: center;
-    box-shadow: 15px 15px 3px rgb(40, 40, 116);
+    box-shadow: 15px 15px 10px rgb(41, 10, 10);
 }
 
 input[type="number"] {
@@ -45,8 +45,8 @@ input[type="number"] {
 }
 
 input[type="number"]:focus {
-    border-color: #4a90e2;
-    box-shadow: 0 0 8px rgba(74, 144, 226, 0.6);
+    border-color: rgb(79, 16, 16);
+    box-shadow: 0 0 8px rgb(79, 16, 16);
 }
 
 select {
@@ -66,8 +66,8 @@ select:hover {
 }
 
 select:focus {
-    border-color: #378ADD;
-    box-shadow: 0 0 0 3px rgba(55, 138, 221, 0.15);
+    border-color: rgb(79, 16, 16);
+    box-shadow: 0 0 3px rgb(79, 16, 16);
 }
 
 .titulosDaSection {
@@ -77,9 +77,9 @@ select:focus {
     font-style: normal;
 }
 
-#btnEnviar, #btnFinalizar {
-    background-color: rgb(84, 84, 255);
-    box-shadow: 3px 3px 1px rgb(40, 40, 116);
+#btnEnviar, #btnFinalizar, #btnLimpar {
+    background: radial-gradient(circle, #ff0000, #271111);
+    box-shadow: 1px 1px 5px black;
     color: white;
     border: 1px solid black;
     padding: 10px;
@@ -101,7 +101,7 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     font-style: italic;
-    color: white;
+    color: rgb(206, 206, 206);
 }
 
 #numAdicionados {
@@ -115,6 +115,6 @@ footer {
     background-color: #f0f0f0;
     padding: 8px 16px;
     border-radius: 8px;
-    border-left: 4px solid #4a4aff;
+    border-left: 4px solid rgb(53, 29, 29);
     margin: 6px 0;
 }
