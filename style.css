@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(84, 84, 255);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 6px 6px 1px rgb(40, 40, 116);
+}
+
+#span1e100 {
+    opacity: 40%;
+    color: #378ADD;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+section {
+    background: rgb(243, 243, 243);
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 15px 15px 3px rgb(40, 40, 116);
+}
+
+input[type="number"] {
+    width: 200px;
+    height: 35px;
+    padding: 8px 12px;
+    border: 2px solid #999;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Remove o contorno padrão do navegador */
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.6);
+}
+
+select {
+    width: 100%;
+    text-align: center;
+    border: 1.5px solid #aaa;
+    background-color: #fff;
+    color: #333;
+    font-size: 15px;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+}
+
+select:hover {
+    border-color: #777;
+}
+
+select:focus {
+    border-color: #378ADD;
+    box-shadow: 0 0 0 3px rgba(55, 138, 221, 0.15);
+}
+
+.titulosDaSection {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#btnEnviar, #btnFinalizar {
+    background-color: rgb(84, 84, 255);
+    box-shadow: 3px 3px 1px rgb(40, 40, 116);
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btnFinalizar {
+    margin: 10px;
+}
+
+#div2 {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-style: italic;
+    color: white;
+}
+
+#numAdicionados {
+    font-family: 'Courier New', monospace;
+}
+
+.resultado {
+    font-family: 'Courier New';
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-left: 4px solid #4a4aff;
+    margin: 6px 0;
+}
